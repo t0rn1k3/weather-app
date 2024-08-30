@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body {
+    font-family: 'Trebuchet MS';
+    background-color: #312e40;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-body {
+    width: 80%;
+    height: 80%;
+    background-color: #eae0d5;
+    border-radius: 20px;
+}
+.input-cont {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.search-input  {
+    width: 85%;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #312e40;
+}
+.search-icon {
+    color: #312e40;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .3s;
+}
+.search-icon:hover {
+    font-size: 23px;
+}
