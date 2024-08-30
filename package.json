@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
